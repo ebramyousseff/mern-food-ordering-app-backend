@@ -6,20 +6,6 @@ const menuItemSchema = new mongoose.Schema({
 })
 
 
-// const restaurantSchema = new mongoose.Schema({
-//     user:{type: mongoose.Schema.Types.ObjectId, ref: "User"},
-//     restaurantName: {type: String, required: true},
-//     city: {type: String, required: true},
-//     countrey: {type: String, required: true},
-//     deliveryPrice: {type: String, required: true},
-//     estimatedDeliveryTime: {type: String, required: true},
-//     cuisines: {type: String, required: true},
-//     menuItems:[menuItemSchema],
-//     imageUrl: {type: String, required: true},
-//     lastUpdate: {type: Date, default: Date.now},
-// })
-
-
 
 const restaurantSchema = new mongoose.Schema({
     user:{type: mongoose.Schema.Types.ObjectId, ref: "User"},
